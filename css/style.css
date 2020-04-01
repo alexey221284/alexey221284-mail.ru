@@ -160,3 +160,9 @@ dl.adr dd a:hover {}
 #form label {position:relative;display: block; min-height:35px; overflow:hidden;}
 .btns {text-align:right; overflow:hidden; width:610px; padding-top:10px; }
 .btns a {display:inline-block; margin-left:10px;}
+.headlogo {
+	color: white;	
+	font-weight: 700;
+	font-size: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+}
