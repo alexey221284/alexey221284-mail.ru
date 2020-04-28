@@ -120,8 +120,29 @@ h1 {
     text-align: center;
 }
 
+p {
+	color: black;
+	font-size: 3vh;
+	text-align: center;
+}
+
 .footer {
     
     height: 100vh;
     background-color: black;     
+}
+
+@media (max-width: 768px) {
+	.header {		  
+		height: 15;		       
+	}
+	
+	.logo {
+		position: absolute;
+		left: 10vw;
+		top: 2vh;
+	}
+	ul {
+		display: none;			      
+	}	
 }
