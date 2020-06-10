@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="stylesheet" href="owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/css/owl.theme.default.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="owl-carousel/js/owl.carousel.js"></script>
+
     <title>Car64.ru - Autoservice</title>
 </head>
 
@@ -24,8 +31,14 @@
         </header>
 
         <div class="slider">
-            <img src="img/slider.png" class="slider_image">
-        </div>
+            <div class="owl-carousel owl-theme">
+                <div><img src="img/slider_1.png"></div>
+                <div><img src="img/slider_2.png"></div>
+                <div><img src="img/slider_3.png"></div>
+            </div>
+        </div>       
+        
+        
 
         <main class="main" id='main'>
             <h1 class="head">Заголовок H1</h1>
@@ -37,7 +50,7 @@
         </footer>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
