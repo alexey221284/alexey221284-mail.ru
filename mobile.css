@@ -491,6 +491,7 @@
 		position: relative;
 		text-align: center;
 		margin-top: 20px;
+		font-size: 18px;
 	}
 	
 	.contacts_sale {
@@ -504,6 +505,10 @@
 		flex-direction: column;
 		margin: 20px 10px 0 10px;
 		font-size: 18px;
+	}
+
+	.form-callback {		
+		margin-top: 50px;		
 	}
 	
 	.footer_text {
@@ -1006,6 +1011,7 @@
 		position: relative;
 		text-align: center;
 		margin-top: 20px;
+		font-size: 18px;
 	}
 	
 	.contacts_sale {
@@ -1019,6 +1025,14 @@
 		flex-direction: column;
 		margin: 20px 10px 0 10px;
 		font-size: 18px;
+	}	
+
+	.form-callback {		
+		margin-top: 50px;		
+	}
+
+	#user_name, #user_email, #text_comment, #btn_submit {		
+		width: 355px;
 	}
 	
 	.footer_text {
@@ -1522,6 +1536,7 @@ tr {
 	position: relative;
 	text-align: center;
 	margin-top: 20px;
+	font-size: 18px;
 }
 
 .contacts_sale {
@@ -1535,6 +1550,14 @@ tr {
 	flex-direction: column;
 	margin: 20px 10px 0 10px;
 	font-size: 18px;
+}
+
+.form-callback {		
+	margin-top: 50px;		
+}
+
+#user_name, #user_email, #text_comment, #btn_submit {		
+	width: 392px;
 }
 
 .footer_text {
@@ -2044,6 +2067,7 @@ tr {
 		position: relative;
 		text-align: center;
 		margin-top: 20px;
+		font-size: 18px;
 	}
 	
 	.contacts_sale {
@@ -2057,6 +2081,16 @@ tr {
 		flex-direction: column;
 		margin: 20px 10px 0 30px;
 		font-size: 18px;
+	}
+
+	.form-callback {		
+		margin-top: 50px;	
+		width: 560px;	
+		margin-left: 30px;
+	}
+
+	#user_name, #user_email, #text_comment, #btn_submit {		
+		width: 540px;
 	}
 	
 	.footer_text {
