@@ -14,7 +14,7 @@
         $message .= "Текст письма: " . $_POST['text_comment'];      
         send_mail($message); // отправим письмо
         // выведем сообщение об успехе
-        $msg_box = "<span style='color: green;'>Сообщение успешно отправлено!</span>";
+        $msg_box = "<span style='color: green;'>Запись на сервис отправлена администратору</span>";
     }else{
         // если были ошибки, то выводим их
         $msg_box = "";
@@ -32,11 +32,11 @@
     // функция отправки письма
     function send_mail($message){
         // почта, на которую придет письмо
-		$mail_to_arr = array("alex.zhumaev@mail.ru", "laa252159@gmail.com");
+		$mail_to_arr = array("alex.zhumaev@mail.ru", "laa252159@gmail.com", "admin@cars64.ru");
 		foreach($mail_to_arr as $mail_to)
 		{
 		  // тема письма
-        $subject = "Лидогенерация";
+        $subject = "Запись на сервис - www.cars64.ru";
          
         // заголовок письма
         $headers= "MIME-Version: 1.0\r\n";
