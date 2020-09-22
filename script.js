@@ -63,7 +63,6 @@ document.getElementById('closeburgermenu').addEventListener('click', event => {
 })
 
 function closeMenu() {
-    console.log('!!!close');
     if (isMobile()) {
         document.getElementById('menu_all').style.right = '-70%';
         document.getElementById('menu_all').style.transition = 'all 0.5s linear';
@@ -89,4 +88,19 @@ for (let i=0; i<closeable.length; i++) {
     closeable[i].addEventListener('click', event => {
         closeMenu();
     })
+}
+
+/* Popup */
+
+const popup = document.getElementById('popup');
+
+function popupOpen () {    
+    popup.style.display = 'initial';
+}
+
+function popupClose() {
+    popup.style.display = 'none';
+    document.getElementById('user_name').value = '';
+    document.getElementById('user_email').value = '';
+    document.getElementById('text_comment').value = '';
 }

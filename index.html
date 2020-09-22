@@ -460,23 +460,29 @@
                 </div>
 
                 <div class="form-callback">
-                    <span class="contacts_sale">Запись на сервис:</span>                    
-                    <div class="messages"></div>                    
+                    <div class="popup_wrapper" id="popup">
+                        <div class="messages" ></div>
+                        <button class="btn_ok" onclick=popupClose()>OK</button>
+                    </div>
+
+                    <span class="contacts_sale">Запись на сервис:</span>                                       
                     <label>Ваше имя:</label>
                     <input type="text" id="user_name" value="" />                     
                     <label>Ваш контактный телефон:</label>
                     <input type="text" id="user_email" value="" />                     
                     <label>Напишите комментарий:</label>
                     <textarea id="text_comment"></textarea>                         
-                    <input type="button" value="Отправить" id="btn_submit" />     
+                    <input type="button" value="Отправить" id="btn_submit" onclick=popupOpen() />     
                 </div>
+
+                
 
                 <div id="mapWrapper">
                     <div id="map"></div>
                 </div>
             </div>
             
-        </main>
+        </main>  
 
         <footer class="footer mobile_menu_close" id="footer">
             <p class="footer_text">©«сars64.ru», Автосервис в Саратове</p>
