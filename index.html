@@ -15,15 +15,28 @@
     <script src="owl-carousel/js/owl.carousel.js"></script>       
     <script src="sendlead.js" type="text/javascript"></script>
 
+    <meta name="yandex-verification" content="29eee112c0ec8cff" />
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(67811752, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/67811752" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+
     <title>Автосервис и установка оборудования в Саратове</title>
 
-    <meta name='wmail-verification' content='d826413117f8f9ace48340382bf8f819' />
 </head>
 
 <body>
-
-<!-- Yandex.Metrika counter -->
-<!-- /Yandex.Metrika counter -->
 
     <div class="wrapper" id="wrapper">
 
@@ -39,7 +52,7 @@
                 <li onclick="javascript:document.location.href='#wrapper';closeMenu();" class="menu_list">Главная</li>
                 <li onclick="javascript:document.location.href='#catalog';closeMenu();" class="menu_list">Услуги и цены</li>
                 <li onclick="javascript:document.location.href='#oborud';closeMenu();"class="menu_list">Доп. оборудование</li>
-                <!--<li onclick="javascript:document.location.href='#montazh';closeMenu();" class="menu_list">Шиномонтаж</li>-->              
+                <li onclick="javascript:document.location.href='#montazh';closeMenu();" class="menu_list">Шиномонтаж</li>             
                 <!--<li onclick="javascript:document.location.href='#garant';closeMenu();" class="menu_list">Гарантия</li>-->
                 <li onclick="javascript:document.location.href='#trademark';closeMenu();" class="menu_list">О нас</li>             
                 <li onclick="javascript:document.location.href='#contacts';closeMenu();" class="menu_list">Контакты</li>
@@ -50,9 +63,9 @@
             </div>
         </header>
 
-     <div class="home_slider mobile_menu_close" id="id02">
+     <div class="home_slider">
         <div class="slider">
-            <div class="owl-carousel owl-theme">
+            <div id="owl-carousel" class="owl-carousel owl-theme">
                   <div><img src="img/slider/01.jpg"></div>
                   <div><img src="img/slider/02.jpg"></div>
                   <div><img src="img/slider/03.jpg"></div>
@@ -65,12 +78,16 @@
             <h1 class="head">Автосервис и установка оборудования в Саратове</h1>
 
                 <div class="main_block">
-                    <img class="main_foto" src="img/main.png">
+                    <img class="main_foto" src="img/main.jpg">
                     <p class="main_info">
-                        CARS64 - это не только автосервис. Если 5 лет назад наша компания оказывала исключительно услуги по ремонту 
-                        автомобилей, то сегодня — это целый комплекс сервисов для клиента. Где бы вы ни были, и что бы с вами не 
-                        случилось — CARS64.RU всегда рядом.                        
-                    </p>                       
+                        Мы ремонтирует только те автомобили, которые реально требуют ремонта. Мы никогда не оказываем 
+                        давление на клиентов с целью навязать ненужные работы. По всем возникающим вопросам мы всегда 
+                        дадим Вам необходимые консультации.   
+                        Вы всегда можете быть уверены в том, что цена на работы соответствует трудозатратам на ее выполнение.
+                        Мы не заманиваем низкой ценой, мы сразу назначаем честные цены на свои работы.
+                        Наши мастера знают отлично все распространенные проблемы обслуживаемых у нас автомобилей и имеют все 
+                        необходимое оборудование для их устранения.                            
+                    </p>                      
                     
                 </div>
 
@@ -230,11 +247,12 @@
                                 <tr><td class="table_firts_block">Замена бензобака</td><td>2000-8000</td><td>600-3000</td><td>2000-8000</td></tr>
                                 <tr><td class="table_firts_block">Замена топливного насоса</td><td>1000-3500</td><td>800-2000</td><td>1000-3500</td></tr> 
                                 <tr><td class="table_firts_block">Замена топливного датчика</td><td>500-2500</td><td>350-2000</td><td>500-2500</td></tr>
-                                <tr><td class="table_firts_block">Очистка топливной системы</td><td>500-3000</td><td>500-1500</td><td>500-3000</td></tr>
-                            </table>
-                            <div id="oborud"></div>
+                                <tr><td class="table_firts_block">Очистка топливной системы</td><td>500-3000</td><td>500-1500</td><td>500-3000</td></tr>                                
+                            </table>                            
                         </div>
-                    </div>          
+                    </div> 
+                    
+                    <div id="oborud">&nbsp;<p>&nbsp;<p>&nbsp;<p></div>
 
 
             <h2 class="option_head">Дополнительное оборудование:</h2>
@@ -260,22 +278,70 @@
                     </table>
                 </div>
             </div>
+
+            <div id="montazh">&nbsp;<p></div>
+
             
-            <div class="item">
-                <img class="teplicy_foto" src="img/product/05_davlen.jpg">
-                <div class="teplicy_wrapper">
-                    <h2>Установка датчиков давления в шины<span></span></h2>
+            <h2 class="teplicy_head">Шиномонтаж</h2>
+            <div class="item">                
+                <img class="teplicy_foto" src="img/product/07_tyres.jpg">
+                <div class="teplicy_wrapper"> 
+                    <h2>Замена 4х колес:</h2>                   
                     <div class="teplica_specifications">
                         <li></li>                              
                     </div>
                     <table class="table">
                         <tr>
-                            <th>Виды работ:</th>
+                            <th class="table_firts_block">Радиус колес:</th>
                             <th>Иномарки</th>
                             <th>Отечественные</th>
                             <th>Коммерческие</th>                                    
                         </tr>
-                        <tr><td class="table_firts_block">на 4 колеса</td><td>1000</td><td>500</td><td>2000</td></tr> 
+                        <tr><td class="table_firts_block">R12,13,14</td><td>1600</td><td>1000</td><td>1600</td></tr>
+                        <tr><td class="table_firts_block">R15</td><td>1600</td><td>1200</td><td>1600</td></tr> 
+                        <tr><td class="table_firts_block">R16</td><td>1700</td><td>1300</td><td>1700</td></tr>
+                        <tr><td class="table_firts_block">R17</td><td>1700</td><td>1500</td><td>1700</td></tr>
+                        <tr><td class="table_firts_block">R18</td><td>2000</td><td>1600</td><td>2000</td></tr>
+                        <tr><td class="table_firts_block">R19</td><td>2100</td><td>1800</td><td>2100</td></tr>
+                        <tr><td class="table_firts_block">R19</td><td>2300</td><td>2000</td><td>2300</td></tr>
+                    </table>
+                </div>                
+            </div>            
+            
+            <div class="item">                
+
+                <div class="slider_trademark_wrapper">
+                    <div class="slider_trademark">
+                        <div id="owl-carousel-davlen" class="owl-carousel owl-theme">
+                            <div><img src="img/product/05_davlen_1.JPG"></div>
+                            <div><img src="img/product/05_davlen_2.JPG"></div>
+                            <div><img src="img/product/05_davlen_3.JPG"></div>
+                            <div><img src="img/product/05_davlen_4.JPG"></div>
+                            <div><img src="img/product/05_davlen_5.JPG"></div>
+                        </div>
+                    </div>
+                </div>
+                    
+
+                <div class="teplicy_wrapper">
+                    <h2>Установка датчиков давления в шины<span></span></h2>
+                    <div class="teplica_specifications">
+                        <li>Заряжается от солнечной энергии</li>
+                        <li>Показывает высокое и низкое давление, сигнализация о снижении давления в шинах</li> 
+                        <li>ЖК-дисплей, простой пользовательский интерфейс</li> 
+                        <li>Высокая точность, используются импортные чипы Freescale</li>
+                        <li>Мониторинг давления и температуры происходит в шинах в реальном времени</li>
+                        <li>Умный запуск: парковка автоматически спит, автомобиль начинает автоматически просыпаться</li>
+                        <li>Два сменных блока: PSI b Bar, Вы можете установить тот, который вам нравится</li>
+                        <li>Сменный аккумулятор датчика</li>                             
+                    </div>
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>Цена с учетом установки, руб.</th>                                   
+                        </tr>
+                        <tr><td class="table_firts_block">Универсальные датчики давления в шины</td><td>6000</td></tr> 
+                        <tr><td class="table_firts_block">Оригинальные датчики для Hyundai-Kia</td><td>8000</td></tr> 
                     </table>
                 </div>
             </div>             
@@ -439,11 +505,10 @@
                               <div><img src="img/trademark_slider/10.jpg"></div>
                         </div>
                     </div>
-                </div>-->
-                <br id="contacts">
+                </div>-->                
             </div>
 
-            
+            <div id="contacts">&nbsp;<p>&nbsp;<p></div>            
 
             <h1 class="contacts_head">Контакты:</h1>
             <div class="contacts">
@@ -454,7 +519,7 @@
                             <a href="tel:88452582845"><img src="img/telefon.png" class="phone_foto"> +7 (8452) 58-28-45</a>
                             <span>Электронная почта: </span><a href="mailto:admin@cars64.ru"><img src="img/mailto2.png" class="phone_foto"> admin@cars64.ru</a>
                             <span>Адрес: </span>
-                            <span>г. Саратов, ул. Перспекивная д. 36</span>
+                            <span>г. Саратов, ул. Перспективная д. 36</span>
                         </p>
                     </div>
                 </div>

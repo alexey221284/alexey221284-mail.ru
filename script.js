@@ -1,7 +1,7 @@
 /* Owl Carousel */
 
 $(function() {
-    $(".owl-carousel").owlCarousel({
+    $("#owl-carousel").owlCarousel({
         items: 1,
         margin: 0,
         nav: false,
@@ -22,6 +22,35 @@ $(function() {
             },
             1024: {
                 items: 4
+            }
+        }
+    });
+    
+   });
+
+   $(function() {
+    $("#owl-carousel-davlen").owlCarousel({
+        items: 1,
+        margin: 0,
+        nav: false,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        dots: false,
+
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            1024: {
+                items: 1
             }
         }
     });
