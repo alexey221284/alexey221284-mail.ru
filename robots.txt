@@ -1,0 +1,10 @@
+User-agent: GoogleBot
+Disallow: 
+
+User-agent: Yandex
+Disallow: 
+
+User-agent: *
+Disallow: 
+
+Sitemap: https://cars64.ru/sitemap.xml
